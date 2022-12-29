@@ -8,8 +8,8 @@
         "test:coverage": "jest --coverage",
         "test:watch": "jest --watchAll",
         "commit": "cz",
-        "prettier": "prettier -c .",
-        "prettier:fix": "prettier -w .",
+        "prettier": "prettier -c routes/*",
+        "prettier:fix": "prettier -w routes/*",
         "lint": "eslint .",
         "lint:fix": "eslint --fix .",
         "code:fix": "npm run prettier:fix && npm run lint:fix"
